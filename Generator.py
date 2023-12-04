@@ -10,11 +10,11 @@ options1 = ["Maximizar abertura de e-mails",
             "Maximizar compras no app", 
             "Maximizar compras locais",
             "Maximizar resgate de pontos"]
-focus = st.selectbox("Selecione o foco da campanha:", option1)
+focus = st.selectbox("Selecione o foco da campanha:", options1)
 
 #Language type dropdown
 options2 = ["Formal", "Informal"]
-formality = st.selectbox("Selecione o tipo de linguagem a ser usado:", options)
+formality = st.selectbox("Selecione o tipo de linguagem a ser usado:", options2)
 
 # Button to trigger the action
 if st.button("Gerar campanha"):
