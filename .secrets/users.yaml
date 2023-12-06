@@ -1,0 +1,18 @@
+credentials:
+  usernames:
+    valerio.cardoso:
+      email: valerio.cardoso@hvarconsulting.com.br
+      name: Valério Cardoso
+      password: '$2b$12$z2E9j0FU0mOeDWLuk9SzaOGL6ypNHsUY2mRmTGmJ0068z.XpMBX1m'
+    victor.viola:
+      email: victor.viola@hvarconsulting.com.br
+      name: Victor Viola
+      password: '$2b$12$5vWhF7pvYyt2679mxsYUHeskErhVcfg8IELQI9wnCPVGV1k6vgRLe'
+cookie:
+  expiry_days: 30
+  key: some_signature_key # Must be string
+  name: some_cookie_name
+preauthorized:
+  emails:
+  - valerio.cardoso@hvarconsulting.com.br
+  - victor.viola@hvarconsulting.com.br
