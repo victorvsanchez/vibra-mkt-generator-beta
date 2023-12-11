@@ -7,7 +7,11 @@ credentials:
     victor.viola:
       email: victor.viola@hvarconsulting.com.br
       name: Victor Viola
-      password: '$2b$12$5vWhF7pvYyt2679mxsYUHeskErhVcfg8IELQI9wnCPVGV1k6vgRLe'
+      password: '$2b$12$0Qzb02y/yu9pB6xjJZ1ooervhSTZgSopmwdvWKHCxcCWhAGILY62S'
+    teste:
+      email: teste@testmail.com.br
+      name: Usuario de Teste
+      password: '$2b$12$ru9m3TYIcx3u/boQySdBX.o4tsmgDCeQGK82zSgIqhMMfo20lFpCq'
 cookie:
   expiry_days: 30
   key: some_signature_key # Must be string
