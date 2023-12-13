@@ -1,2 +1,5 @@
 runtime: custom
 env: flex
+network:
+  name: vpc-ds-prd
+  subnetwork_name: subnet-ds-prd

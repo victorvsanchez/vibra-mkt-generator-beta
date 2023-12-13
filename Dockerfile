@@ -1,11 +1,15 @@
 FROM python:3.10-slim
 
 COPY ./.secrets ./.secrets
-COPY ./requirements.txt .
+COPY ./pyproject.toml .
 
 RUN pip install --upgrade pip
+RUN pip install pdm
+RUN pdm install 
+
+COPY requirements.txt .
 RUN pip install -r requirements.txt
 
-EXPOSE 8501
-
-CMD python run streamlit run --server.port 8501 --server.enableCORS false ./src/app.py 
+EXPOSE 8080
+ 
+CMD pdm run streamlit run --server.port 8080 --server.enableCORS false Generator.py 
