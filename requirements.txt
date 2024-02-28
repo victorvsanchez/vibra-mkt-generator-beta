@@ -1,5 +1,5 @@
 langchain==0.0.346
 langchain-core==0.0.10
 google-cloud-aiplatform==1.35.0
-streamlit==1.29.0
+streamlit==1.29.1
 streamlit-authenticator==0.2.3
