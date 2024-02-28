@@ -2,7 +2,7 @@
 
 An interface to allow end users with no knowledge of prompt engineering to generate marketing campaigns for e-mail and mobile according to predefined marketing constraints. Front-end was created using [Streamlit](https://streamlit.io), and originally deployed in a dockerized version on Google Cloud App Engine. It also includes a simple login system, using [streamlit-authenticator](https://github.com/mkhorasani/Streamlit-Authenticator).
 
-It was developed to be used 
+It was developed to be used alongside an additional Machine Learning model, to predict the likelyhood of a customer to buy a product in the next few days given that they were exposed to the campaign, thus directing those ads to the top relevant customers.
 
 ### Screenshots
 
